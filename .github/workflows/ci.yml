@@ -15,7 +15,7 @@ jobs:
       - run: npm i
 
       # 打包
-      - run: npm run build
+      - run: npm run deploy
 
       # 部署
       - name: Deploy
